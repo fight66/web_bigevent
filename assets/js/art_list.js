@@ -125,7 +125,7 @@ $(function () {
 
         // 获得当前页面的删除按钮的个数
         var len = $('.btn-delete').length;
-        console.log(len);
+     
         // 获取到文章的id
         var id = $(this).attr('data-id');
         // 询问用户是否想要删除
@@ -156,5 +156,7 @@ $(function () {
         });
     })
 
+
+   
 
 })
